@@ -421,7 +421,7 @@ footer div#politicas a{
 /******************************/
  @media  (min-width: 992px){
 
-  :root{
+     :root{
     background-color:white;
     font-size: 20px;
   }
@@ -431,8 +431,15 @@ footer div#politicas a{
     max-width: 1024px;
    
   }
-
-
+  nav#principal ul {
+   
+    text-align: center;
+    
+  }
+  nav#principal ul li {
+    display: inline-block;   
+  }
+ 
   #logo{
   
     width: 40%;
@@ -527,4 +534,5 @@ section#contactar form button {
 section#contactar input, select{
   height: 30px;
 }
+  
  }
